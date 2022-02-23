@@ -1,0 +1,15 @@
+html{
+    overflow-x: hidden;
+}
+
+#country{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    ;
+    gap: 20px;
+}
+.country-item{
+    border: 1px solid bisque;
+    padding: 10px;
+    border-radius: 5px;
+}
